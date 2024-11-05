@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Tejas Kulkarni Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#about_me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <header>
+                <h1>Welcome to Tejas Kulkarni's Portfolio</h1>
+                <!--brief bio, your name, profile pic, welcome message-->
+                <img src="images/profile_picture.jpg" alt="Profile picture of Tejas Kulkarni" id="profile_picture">
+                <p>My name is Tejas Kulkarni. I was born in Mountain View, California, but I
+                    moved to Washington state at a very young age. I was raised in WA and still
+                    currently reside here. One fun fact about me is that my favorite season is
+                    winter. I hope you enjoy the portfolio that I have set up for you today.
+                </p>
+            </header>
+
+            <main>
+                <section id="about_me">
+                    <h2>About Me</h2>
+                    <!--background, education, career goals, personal interests-->
+                    <p> I am 22 years old, and here is a short description of me. I attented and graduated
+                        Eastlake High School, and then attented the University of Massachusetts Amherst
+                        for a couple years. I am hoping to work as a software developer in the future,
+                        and pursuing the Coding Temple bootcamp has set me on the right path to working
+                        towards my career goals. Some of my personal interests include playing tennis,
+                        video games, and cooking. Moving forward through this portfolio, you can see
+                        some of my more technical skills and achievements in the next sections.
+                    </p>
+                </section>
+
+                <section id="projects">
+                    <h2>Projects</h2>
+                    <!--project descriptions, images, links, technologies, tools-->
+                    <ul>
+                        <p>Follow any of the links to see the full code for the following projects on github.
+                            You can even try utilizing the projects yourself.
+                        </p>
+
+                        <li><a href="https://github.com/tkulkarni13/Mini-Project-E-Commerce-API">E-Commerce API</a></li>
+                        <p>
+                            This API allows users to manage data in an e-commerce setting.
+                            The user can access API requests relating to customer management,
+                            customer account management, product management, and orders management.
+                            For each of these categories, there are routes to create new datapoints,
+                            read datapoints, update datapoints, and delete datapoints.
+                            The data is stored in a SQL database using Flask-SQLAlchemy for integration.
+                            In addition, there are routes with bonus funcionality if needed by the user.
+                            There is capability to view and manage stock levels of individual products,
+                            and an automatic restocking function when stock is low. A user could also view
+                            the complete order history of a specific customer, or calculate the total price of an order.
+                        </p>
+
+                        <li><a href="https://github.com/tkulkarni13/Project-Library-Management-System-with-Databse-Integration">Library Management System with Database Integration</a></li>
+                        <p>
+                            This application allows user to manage a library system via command line inputs.
+                            There are 3 core components to this library management system.
+                            Users are able to store information about books, users, authors.
+                            Users can add new books, users, and authors, to the system, and search for
+                            each of these at a later time. The newly added data is stored in a SQL database.
+                            There is also functionality to check out a book, and return it at a later date.
+                            There is one copy of each book available until checked out. Once a
+                            book has been checked out, it must be returned before it can be checked out
+                            again. All checked out books are stored in a table with a borrow and return date.
+                            This can be accessed to see overall how often people are using the library system.
+                            There is also functionality to view all books, authors, and users in the system.
+                            Users can also search for specific books by their title or isbn.
+                            This allows users to easily see which books are available and which arent.
+                        </p>
+
+                        <li><a href="https://github.com/tkulkarni13/Project-Contact-Management-System">Contact Management System</a></li>
+                        <p>
+                            This app provides user with the ability to store their contacts and additional
+                            information about them. Using the command line as an interface, the program
+                            will prompt the user for inputs when needed. This allows users to add new contacts,
+                            edit an existing contact, delete a contact, search for a contact, and import or
+                            export contacts to or from a text file.
+                        </p>
+                    </ul>
+                </section>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <!--technical skills, languages, framesworks, software proficiency-->
+                    <ul>
+                        <li>Coding: Python, Java, C, HTML, CSS, SQL, x86 Assembly</li>
+                        <li>Technologies/Environments: Visual Studio Code, Vim, Nano,  GitHub</li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer id="contact">
+                <address>
+                    <h2>Contact Me</h2>
+                    <p>Please fill out this short <a href="form.html">feedback form</a>
+                        if you'd like to comment on the portfolio.
+                    </p>
+
+                    <p>For any additional question or concerns, you can contact me at
+                        <a href="mailto:tejas.pie@gmail.com">tejas.pie@gmail.com</a>.
+                    </p>
+
+                    <p>
+                        Make sure to follow my <a href="https://github.com/tkulkarni13">github page</a>
+                        as I continue to add new and interesting projects to my portfolio.
+                    </p>
+                </address>
+            </footer>
+        </div>
+    </body>
+</html>
